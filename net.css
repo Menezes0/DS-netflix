@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, "sans-serif";
+    color: white;
+    
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    background-image: url(assets/bg-netflix.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.botoes{
+    display: flex;
+    gap: 16px;
+    font-weight: bold;
+}
+
+.login{
+    background: red;
+    padding: 8px 17px;
+    border-radius: 5px;
+
+}
+.login:hover{
+    background: #8b0000;
+}
+
+.language{
+    border: 1px solid;
+    padding: 8px 17px; 
+    border-radius: 5px;
+}
+
+main{
+    justify-items: center;
+    padding: 190px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 62px;
+    width: 980px;
+}
+
+.subtitulo{
+    padding: 25px;
+    font-size: 35px;
+}
+
+.sub2{
+    font-size: 22px;
+    font-weight: normal;
+    padding: 25px;
+
+}
+
+.info{
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+}
+
+.email{
+    text-align: left;
+    border: 1px solid;
+    padding: 16px; 
+    width: 300px;
+    border-radius: 4px;
+}
+
+.letsgo{
+    background: red;
+    padding: 25px;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+    position: relative;
+
+}
+.letsgo:hover{
+    background: #8b0000;
+}
