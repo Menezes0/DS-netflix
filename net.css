@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, "sans-serif";
+    font-family: "Arial", Helvetica, "sans-serif";
     color: white;
     
 }
@@ -19,21 +19,22 @@ body{
 
 }
 .header{
+    margin: 60px;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 0px 148px;
     
 }
 
 .botoes{
     display: flex;
-    gap: 16px;
+    gap: 25px;
     font-weight: bold;
 }
 
 .login{
     background: red;
-    padding: 8px 17px;
+    padding: 20px 25px;
     border-radius: 5px;
 
 }
@@ -43,7 +44,7 @@ body{
 
 .language{
     border: 1px solid;
-    padding: 8px 17px; 
+    padding: 20px 25px; 
     border-radius: 5px;
 }
 
@@ -54,8 +55,9 @@ main{
 }
 
 .titulo{
-    font-size: 62px;
+    font-size: 70px;
     width: 980px;
+    font-weight: bold;
 }
 
 .subtitulo{
@@ -77,22 +79,29 @@ main{
 }
 
 .email{
+    display: flex;
+    align-items: center;
     text-align: left;
-    border: 1px solid;
-    padding: 16px; 
-    width: 300px;
+    border: 0.5px solid;
+    padding: 15px; 
+    width: 550px;
     border-radius: 4px;
+    cursor: text;
+    font-size: 19px;
 }
 
 .letsgo{
     background: red;
     padding: 25px;
     border-radius: 5px;
-    width: 100px;
+    width: 110px;
     font-weight: bold;
-    position: relative;
+    font-size: 21px;
 
 }
+
+
 .letsgo:hover{
     background: #8b0000;
+    cursor: pointer;
 }
