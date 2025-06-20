@@ -11,7 +11,7 @@ body, html{
 }
 
 body{
-    background-image: url(assets/bg-netflix.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(assets/bg-netflix.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,45 +19,49 @@ body{
 
 }
 .header{
-    margin: 60px;
+    margin: 30px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 148px;
+    padding: 0px 310px;
     
 }
 
 .botoes{
     display: flex;
-    gap: 25px;
+    gap: 20px;
     font-weight: bold;
 }
 
 .login{
     background: red;
-    padding: 20px 25px;
+    padding: 10px 20px;
     border-radius: 5px;
+    width: 45px;
+    
 
 }
 .login:hover{
     background: #8b0000;
+    cursor: pointer;
 }
 
 .language{
     border: 1px solid;
-    padding: 20px 25px; 
-    border-radius: 5px;
+    padding: 10px 20px; 
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 main{
     justify-items: center;
-    padding: 190px;
+    padding: 200px;
     text-align: center;
 }
 
 .titulo{
-    font-size: 70px;
+    font-size: 50px;
     width: 980px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .subtitulo{
@@ -66,7 +70,7 @@ main{
 }
 
 .sub2{
-    font-size: 22px;
+    font-size: 15px;
     font-weight: normal;
     padding: 25px;
 
@@ -83,11 +87,12 @@ main{
     align-items: center;
     text-align: left;
     border: 0.5px solid;
-    padding: 15px; 
-    width: 550px;
+    padding: 10px 15px; 
+    width: 470px;
     border-radius: 4px;
     cursor: text;
-    font-size: 19px;
+    font-size: 17px;
+    background-color: rgba(32, 30, 30, 0.6);
 }
 
 .letsgo{
