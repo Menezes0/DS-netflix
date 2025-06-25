@@ -32,7 +32,8 @@ body{
     box-sizing: border-box;
     font-size: 18px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 90px;
+    margin-bottom: 50px;
 }
 
 .form-login {
