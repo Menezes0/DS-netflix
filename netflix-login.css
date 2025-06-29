@@ -161,7 +161,7 @@ body{
 
 .container-footer{
     margin-top: 30px;
-    height: 260px;
+    height: 340px;
     background-color: #161616;  
 }
 
@@ -179,6 +179,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 23px;
+    margin-bottom: 25px;
 
 }
 
@@ -204,4 +205,20 @@ body{
 
 .f2 li{
     padding: 8px;
+    
+}
+
+.language{
+    background-color: transparent;
+    font-weight: 700;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 25px; 
+    border-radius: 4px;
+    cursor: pointer;
+}
+.language option{
+    color: white;
+    background-color: #6697db;
+    font-weight: 700;
 }
