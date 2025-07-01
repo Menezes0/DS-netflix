@@ -13,28 +13,25 @@
     <header class="header">
         <div class="logo">
             <img src="assets/icon-netflix.svg" alt="logonetflix" width="140px">
-         </div>
-    </header>     
+        </div>
+    </header>
 
     <main>
-        
+
         <div class="container-form">
-        <form action="//jkorpela.fi/cgi-bin/echo.cgi" method="post" class="form-login">
+            <form id="form" class="form-login" action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
 
-            <h3>Entrar</h3>
+                <h3>Entrar</h3>
 
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email" placeholder="E-mail ou número de celular">
-
-            <label for="password">Password:</label>
-            <input type="password" name="Usuário" id="password" placeholder="Senha">
-
-            <button class="bot-entrar">Entrar</button>
-
-            <label for="" class="label-OU">OU</label>
-
-            <button class="cod-acesso">Usar um código de acesso</button>
-            <br>
+                <label for="email">E-mail:</label>
+                <input type="email" name="E-mail" id="email" placeholder="E-mail ou número de celular">
+                <label for="password">Password:</label>
+                <input type="password" name="Senha" id="password" placeholder="Senha">
+                <button id="btn-entrar" class="bot-entrar" entrar>Entrar</button>
+                <label for="" class="label-OU">OU</label>
+                <button class="cod-acesso">Usar um código de acesso</button>
+                <br>
+            </form>
 
             <div class="senhaesq">
                 <a href="">Esqueceu a senha?</a>
@@ -61,10 +58,9 @@
 
                 <a href="">Saiba mais.</a>
             </div>
-        </div>  
+        </div>
+    </main>
 
-    </main>        
-    
     <footer>
         <div class="container-footer">
             <div class="contant-footer">
@@ -84,16 +80,15 @@
                         <li><a href="">Informações corporativas</a></li>
                     </ul>
                 </div>
-            <div class="botoes">
-                <select name="language" id="language" class="language">
-                    <option value="pt-br">Português</option>
-                    <option value="en-us">Inglês</option>
-                </select>
+                <div class="botoes">
+                    <select name="language" id="language" class="language">
+                        <option value="pt-br">Português</option>
+                        <option value="en-us">Inglês</option>
+                    </select>
+                </div>
             </div>
-
-                
-        </div>
-    </footer>            
+    </footer>
+    <script src="script js" defer></script>
 
 </body>
 
