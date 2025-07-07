@@ -1,7 +1,11 @@
 const emailInput = document.querySelector("#email");
 const passwordlInput = document.querySelector("#password");
+
 const entrarBtn = document.querySelector("#btn-entrar");
 const form = document.querySelector("#form");
+// 
+const erroPass = document.querySelector("#erro-password");
+const erroEmail = document.querySelector("#erro-email")
 
 // adicionar evento a função (botão entrar)
 entrarBtn.addEventListener("click", (e) => {
@@ -10,18 +14,34 @@ entrarBtn.addEventListener("click", (e) => {
     e.preventDefault();
 
     if (emailInput.value == "") {
-        alert("Preencha o campo vazio");
+        emailInput.style.borderColor = "red";
+        emailInput.style.borderWidth = "2px";
+        erroEmail.style.display = "block"; // mostra o texto
+        
+
+        setTimeout(() => {
+            erroEmail.style.display = "none";
+            emailInput.style.borderColor = "rgba(173, 177, 177, 0.4)";
+            emailInput.style.borderWidth = "0.1px";
+            
+
+        }, 5000);
+        
         return;
     }
 
     if (passwordlInput.value == "") {
-        passwordlInput.style.backgroundColor = "red";
-        alert("Prencha o campo vazio")
+        passwordlInput.style.borderColor = "red";
+        passwordlInput.style.borderWidth = "2px";
+        erroPass.style.display = "block"; 
 
+    
         setTimeout(() => {
-            passwordlInput.style.backgroundColor = "white";
+            erroPass.style.display = "none";
+            passwordlInput.style.borderColor = "rgba(173, 177, 177, 0.4)";
+            passwordlInput.style.borderWidth = "0.1px";
 
-        }, 2000);
+        }, 3000);
 
         return;
     }
