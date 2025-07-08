@@ -5,7 +5,7 @@ const entrarBtn = document.querySelector("#btn-entrar");
 const form = document.querySelector("#form");
 // 
 const erroPass = document.querySelector("#erro-password");
-const erroEmail = document.querySelector("#erro-email")
+const erroEmail = document.querySelector("#erro-email");
 
 // adicionar evento a função (botão entrar)
 entrarBtn.addEventListener("click", (e) => {
